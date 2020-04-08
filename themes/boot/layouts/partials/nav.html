@@ -3,7 +3,7 @@
     <a class="navbar-brand" href="{{ .Site.BaseURL }}{{.Site.Language.Lang}}">{{ $.Site.Params.businessname }}</a>
         <div class="desktopmenu d-flex align-items-end">
           {{ range .Site.Menus.main -}}
-            <a class="nav-item nav-link uppercase" href="{{ .URL | absLangURL }}">{{ .Name }}</a>
+            <a class="nav-item nav-link uppercase" href="{{ .URL }}">{{ .Name }}</a>
             {{ end }}
 
         </div>
