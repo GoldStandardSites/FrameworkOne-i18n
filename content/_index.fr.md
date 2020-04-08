@@ -1,9 +1,8 @@
 ---
 layout: home
 # Meta Data
-title: "Accueil"
+title: "Accueil | Des Sites Internet Puissants et Efficaces"
 description: "La Description de la page"
-keywords: "homepage keywords"
 # Hero Section
 h1: "Gabarit #1"
 lead: "The Gold Standard for Small Business Owners"
@@ -15,15 +14,12 @@ h3: "Powerful Heading"
 subhead3: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elementum pulvinar etiam non quam lacus."
 # SERVICES BOX SECTION
 service1: "Service 1"
-service1__img: "img/og.png"
 service1__desc: "With supporting text below as a natural lead-in to additional content."
 
 service2: "Service 2"
-service2__img: "img/og.png"
 service2__desc: "With supporting text below as a natural lead-in to additional content."
 
 service3: "Service 3"
-service3__img: "img/og.png"
 service3__desc: "With supporting text below as a natural lead-in to additional content."
 # BENEFIT SECTION
 benefit1: "Benefit #1"

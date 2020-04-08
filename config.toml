@@ -1,21 +1,33 @@
 DefaultContentLanguage = "fr"
-baseURL = "/"
 theme = "boot"
 relativeURLs = true
 googleAnalytics = "UA-152851764-2" # Your Analytics ID here
+baseURL = "/"
+title = "GOLDSTANDARDSITES"
 
 [languages]
     [language.fr]
-        languageCode = "fr"
-        languageName = "FR"
-        title = "Gabarit #1 - Le Standard Pour Les Sites de Petites Entreprises"
+        languageName = "Français"
         weight = 1
+        description = "Le Standard Des Sites Pour Petites Entreprise"
+    [[menu]]
+        [[menu.fr.mainmenu]]
+            url = "/"
+            name = "Accueil"
+            weight = 1
+
 
     [language.en]
-        languageCode = "en"
-        languageName = "EN"
-        title = "Framework One - The Small Business Website Framework"
+        languageName = "English"
         weight = 2
+        title = "GOLDSTANDARDSITES"
+        description = "The Gold Standard For Small Business Sites"
+    [[menu]]
+    [[menu.en.mainmenu]]
+        url = "/"
+        name = "Home"
+        weight = 1
+
 
 [params]
     # Schema Information
@@ -37,34 +49,3 @@ googleAnalytics = "UA-152851764-2" # Your Analytics ID here
     instagram = "https://instagram.com/"
     logo = "img/logo.png"
     image = "img/og.png" # Ideal 1200 x 630 for schema + og
-
-[menu]
-    [[menu.mainmenu]]
-        identifier = "Home"
-        name = "Home"
-        url = "/"
-        weight = 1
-
-    [[menu.mainmenu]]
-        identifier = "About"
-        name = "About"
-        url = "/about/"
-        weight = 2
-
-    [[menu.mainmenu]]
-        identifer = "Services"
-        name = "Services"
-        url = "/services/"
-        weight = 3
-    
-    [[menu.mainmenu]]
-        identifer = "Gallery"
-        name = "Gallery"
-        url = "/gallery/"
-        weight = 4
-
-    [[menu.mainmenu]]
-        identifier = "Contact"
-        name = "Contact"
-        url = "/contact/"
-        weight = 5

@@ -6,7 +6,7 @@
         <meta name="application-name" content="{{ .Title }} | {{ .Site.Title }}" />
         <meta property="og:site_name" content="{{ .Site.Title }}" />
 
-        <meta name="description" content="{{ .Params.description }}" />
+        <meta name="description" content="{{ .Param "description" }}">
         <meta itemprop="description" content="{{ .Params.description }}" />
         <meta property="og:description" content="{{ .Params.description }}" />
         <meta name="twitter:description" content="{{ .Params.description }}" />
@@ -29,7 +29,7 @@
         <meta itemprop="image" content="{{ . | absURL }}" />
         <meta property="og:image" content="{{ . | absURL }}" /> 
         <meta name="twitter:image" content="{{ . | absURL }}" />
-        <meta name="twitter:image:src" content="{{ . | absURL }}" />
+        <meta name="twitter:image:src" content="{{ $.Site.BaseURL }}" />
         {{ else }}
         <meta itemprop="image" content="{{ .Site.Params.image | absURL }}" />
         <meta property="og:image" content="{{ .Site.Params.image | absURL }}" />
