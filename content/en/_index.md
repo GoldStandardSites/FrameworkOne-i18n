@@ -7,6 +7,8 @@ keywords: "homepage keywords"
 # Hero Section
 h1: "Framework One"
 lead: "The Gold Standard for Small Business Owners"
+cta: "Our Services"
+cta__link: "services"
 # Service Section
 h2: "Where are here to serve you"
 subhead2: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elementum pulvinar etiam non quam lacus."

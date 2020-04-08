@@ -1,48 +1,48 @@
 ---
 layout: home
 # Meta Data
-title: "Accueil"
-description: "The Homepage Description"
-keywords: "homepage keywords"
+title: "Accueil | Sites Professionel Pour Les Petites Entreprises"
+description: "Vous cherchez à avoir un bon site internet sans briser la banque? Découvrez les sites Gold Standard. Visitez notre site pour plus d'information"
+keywords: "site internet, gold standard, site pas trop cher"
 # Hero Section
 h1: "Gabarit #1"
-lead: "The Gold Standard for Small Business Owners"
+lead: "Le Leader Mondial En Site Internet Puissant et Rapide"
+cta: "Nos Services"
+cta__link: "services"
 # Service Section
-h2: "Where are here to serve you"
+h2: "Nous sommes là pour vous aider!"
 subhead2: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elementum pulvinar etiam non quam lacus."
 
-h3: "Powerful Heading"
+h3: "On s'occupe de la technologie"
 subhead3: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elementum pulvinar etiam non quam lacus."
 # SERVICES BOX SECTION
 service1: "Service 1"
-service1__img: "img/og.png"
-service1__desc: "With supporting text below as a natural lead-in to additional content."
+service1__desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
 
 service2: "Service 2"
-service2__img: "img/og.png"
-service2__desc: "With supporting text below as a natural lead-in to additional content."
+service2__desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
 
 service3: "Service 3"
-service3__img: "img/og.png"
-service3__desc: "With supporting text below as a natural lead-in to additional content."
+service3__desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+
 # BENEFIT SECTION
-benefit1: "Benefit #1"
-benefit1__desc: "Incredible benefit of your business here"
+benefit1: "Avantage #1"
+benefit1__desc: "Votre entreprise est meilleur que le compétiteur"
 
-benefit2: "Benefit #2"
-benefit2__desc: "Incredible benefit of your business here"
+benefit2: "Avantage #2"
+benefit2__desc: "Votre entreprise est meilleur que le compétiteur"
 
-benefit3: "Benefit #3"
-benefit3__desc: "Incredible benefit of your business here"
+benefit3: "Avantage #3"
+benefit3__desc: "Votre entreprise est meilleur que le compétiteur"
 
-benefit4: "Benefit #4"
-benefit4__desc: "Incredible benefit of your business here"
+benefit4: "Avantage #4"
+benefit4__desc: "Votre entreprise est meilleur que le compétiteur"
 
-benefit5: "Benefit #5"
-benefit5__desc: "Incredible benefit of your business here"
+benefit5: "Avantage #5"
+benefit5__desc: "Votre entreprise est meilleur que le compétiteur"
 
-benefit6: "Benefit #6"
-benefit6__desc: "Incredible benefit of your business here"
+benefit6: "Avantage #6"
+benefit6__desc: "Votre entreprise est meilleur que le compétiteur"
 
 # TESTIMONIAL SECTION
 testimonial1: "Lorem Ipsum" # Name 

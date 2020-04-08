@@ -1,6 +1,6 @@
 ---
 title: "Contact"
-description: "The Contact page Description"
+description: "La page de contact de notre entreprise"
 layout: contact
 keywords: "contact, keywords"
 ---

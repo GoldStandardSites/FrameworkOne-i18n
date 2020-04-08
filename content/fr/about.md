@@ -1,18 +1,18 @@
 ---
 title: "A Propos"
-description: "The About page Description"
+description: "Tous pour tous comprendre sur notre entreprise"
 slug: "a-propos"
 layout: about
-keywords: "about, keywords"
+keywords: "a propos, votre entreprise"
 # About Section
-h2: "Think Positive!"
-name1: "First and Last Name" 
+h2: "Pensez Positif!"
+name1: "Nom et Prénom" 
 # Skills Section
 skill1: "Service"
 skill1desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
 skill2: "Experience"
 skill2desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-skill3: "Certified"
+skill3: "Certifié"
 skill3desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
 ---
 

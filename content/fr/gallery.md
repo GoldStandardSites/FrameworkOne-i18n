@@ -1,6 +1,6 @@
 ---
 title: "Gallerie"
-description: "The Gallery page Description"
+description: "Plus d'image sur notre entreprise"
 layout: gallery
 slug: gallerie
 keywords: "gallery, keywords"
