@@ -2,9 +2,12 @@
     <div class="container py-1">
     <a class="navbar-brand" href="{{ .Site.BaseURL }}{{.Site.Language.Lang}}">{{ $.Site.Params.businessname }}</a>
         <div class="desktopmenu d-flex align-items-end">
+          {{- $currentPage := . -}}
           {{ range .Site.Menus.main -}}
-            <a class="nav-item nav-link uppercase" href="{{ .URL | absLangURL }}">{{ .Name }}</a>
-            {{ end }}
+          <span class="nav-item nav-link uppercase">
+            <a class="{{ if $currentPage.IsMenuCurrent "main" . }}active{{ end }}" href="{{ .URL | absLangURL }}">{{ .Name }}</a>
+          </span>  
+          {{ end }}
 
         </div>
         
