@@ -1,6 +1,7 @@
 ---
-title: "About"
+title: "A Propos"
 description: "The About page Description"
+slug: "a-propos"
 layout: about
 keywords: "about, keywords"
 # About Section

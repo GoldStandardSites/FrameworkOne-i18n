@@ -1,35 +1,79 @@
 DefaultContentLanguage = "fr"
+baseURL = "/"
+title = "Framework One - The Small Business Website Framework"
 theme = "boot"
 relativeURLs = true
 googleAnalytics = "UA-152851764-2" # Your Analytics ID here
-baseURL = "/"
-title = "GOLDSTANDARDSITES"
 
 [languages]
-    [language.fr]
-        languageName = "Français"
-        weight = 1
-        description = "Le Standard Des Sites Pour Petites Entreprise"
-    [[menu]]
-        [[menu.fr.mainmenu]]
-            url = "/"
-            name = "Accueil"
-            weight = 1
+  [languages.fr]
+    title = "Mon blogue"
+    weight = 1
+    languageCode = "fr-ca"
+    contentDir = "content/fr"
+    name = "fr"
 
 
-    [language.en]
-        languageName = "English"
-        weight = 2
-        title = "GOLDSTANDARDSITES"
-        description = "The Gold Standard For Small Business Sites"
-    [[menu]]
-    [[menu.en.mainmenu]]
+    [[languages.fr.menu.main]]
+        name = "Accueil"
         url = "/"
-        name = "Home"
         weight = 1
 
+    [[languages.fr.menu.main]]
+        name = "A Propos"
+        url = "/a-propos/"
+        weight = 2
+
+    [[languages.fr.menu.main]]
+        name = "Services"
+        url = "/services/"
+        weight = 3
+
+    [[languages.fr.menu.main]]
+        name = "Gallerie"
+        url = "/gallerie/"
+        weight = 4
+
+    [[languages.fr.menu.main]]
+        name = "Contact"
+        url = "/contact/"
+        weight = 5
+
+[languages.en]
+    title = "My blog"
+    weight = 2
+    languageCode = "en-ca"
+    contentDir = "content/en"
+    languageFlag = "🇬🇧"
+    name = "en"
+    
+    [[languages.en.menu.main]]
+        name = "Home"
+        url = "/"
+        weight = 1
+    
+    [[languages.en.menu.main]]
+        name = "About"
+        url = "/about/"
+        weight = 2
+
+    [[languages.en.menu.main]]
+        name = "Services"
+        url = "/services/"
+        weight = 3
+
+    [[languages.en.menu.main]]
+        name = "Gallery"
+        url = "/gallery/"
+        weight = 4
+
+    [[languages.en.menu.main]]
+        name = "Contact"
+        url = "/contact/"
+        weight = 5
 
 [params]
+    color = "orangered"
     # Schema Information
     businessname = "Company Name"
     type = "LocalBusiness" # Enter Your Type of business - schema.org
@@ -49,3 +93,4 @@ title = "GOLDSTANDARDSITES"
     instagram = "https://instagram.com/"
     logo = "img/logo.png"
     image = "img/og.png" # Ideal 1200 x 630 for schema + og
+

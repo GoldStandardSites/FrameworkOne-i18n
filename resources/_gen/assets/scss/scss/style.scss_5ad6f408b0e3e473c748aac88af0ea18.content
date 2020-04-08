@@ -10433,6 +10433,20 @@ a.text-dark:hover, a.text-dark:focus {
 .invisible {
   visibility: hidden !important; }
 
+.translate {
+  background-color: #222;
+  padding: 0px;
+  transition-duration: 300ms; }
+
+.translate:hover {
+  background-color: white; }
+
+.translate a {
+  color: white; }
+
+.translate:hover a {
+  color: #222; }
+
 .bg-black {
   background-color: #222; }
 
