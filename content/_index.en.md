@@ -1,5 +1,5 @@
 ---
-layout: index
+layout: home
 # Meta Data
 title: "Home"
 description: "The Homepage Description"

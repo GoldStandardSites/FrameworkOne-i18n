@@ -1,4 +1,4 @@
-DefaultContentLanguage = "fr-ca"
+DefaultContentLanguage = "fr"
 baseURL = "/"
 theme = "boot"
 relativeURLs = true
@@ -6,19 +6,18 @@ googleAnalytics = "UA-152851764-2" # Your Analytics ID here
 
 [languages]
     [language.fr]
-        languageCode = "fr-ca"
+        languageCode = "fr"
         languageName = "FR"
         title = "Gabarit #1 - Le Standard Pour Les Sites de Petites Entreprises"
         weight = 1
 
     [language.en]
-        languageCode = "en-ca"
+        languageCode = "en"
         languageName = "EN"
         title = "Framework One - The Small Business Website Framework"
         weight = 2
 
 [params]
-    color = "orangered"
     # Schema Information
     businessname = "Company Name"
     type = "LocalBusiness" # Enter Your Type of business - schema.org
