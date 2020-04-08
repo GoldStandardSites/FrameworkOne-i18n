@@ -1,9 +1,21 @@
+DefaultContentLanguage = "fr-ca"
 baseURL = "/"
-languageCode = "en-ca"
-title = "Framework One - The Small Business Website Framework"
 theme = "boot"
 relativeURLs = true
 googleAnalytics = "UA-152851764-2" # Your Analytics ID here
+
+[languages]
+    [language.fr]
+        languageCode = "fr-ca"
+        languageName = "FR"
+        title = "Gabarit #1 - Le Standard Pour Les Sites de Petites Entreprises"
+        weight = 1
+
+    [language.en]
+        languageCode = "en-ca"
+        languageName = "EN"
+        title = "Framework One - The Small Business Website Framework"
+        weight = 2
 
 [params]
     color = "orangered"
